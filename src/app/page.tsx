@@ -114,8 +114,23 @@ export default function Home() {
         </article>
       </main>
 
-      <footer className="py-6 text-center text-xs text-gray-400 dark:text-gray-500 border-t border-gray-200 dark:border-gray-800">
-        <p>Color Converter &mdash; Free online color format conversion tool</p>
+      <footer className="border-t border-gray-200 py-8 text-center">
+        <div className="max-w-3xl mx-auto px-4">
+          <p className="text-sm text-gray-500 mb-4">Color Converter — Free online tool. No signup required.</p>
+          <div className="mb-4">
+            <p className="text-xs text-gray-400 mb-2">Related Tools</p>
+            <div className="flex flex-wrap justify-center gap-2">
+              <a href="https://color-palette-sand.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Color Palette</a>
+              <a href="https://css-gradient-beta.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">CSS Gradient</a>
+              <a href="https://binary-converter-one.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">HEX Converter</a>
+              <a href="https://tailwindconvert.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Tailwind Convert</a>
+              <a href="https://px-to-rem-rust.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">PX to REM</a>
+            </div>
+          </div>
+          <div className="flex justify-center gap-3 text-xs text-gray-400">
+            <a href="https://cc-tools.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600">53+ Free Tools →</a>
+          </div>
+        </div>
       </footer>
     </>
   );
